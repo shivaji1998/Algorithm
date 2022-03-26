@@ -54,5 +54,19 @@ public void PrimSpanningTree( )
              x = i;
              
              y = j;
+             
+            
+     ### print the nodes
+                         
+             System.out.println("Next selected edge: (" +
+          + x + "," +
+         + y + ")" +
+         
+           " cost = " +Cost[x][y]); 
+           
+      MinEdge[y] = x;
+      
+      Visited[y] = true;
+               
     
     
