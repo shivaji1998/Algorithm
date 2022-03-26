@@ -32,3 +32,27 @@ public void PrimSpanningTree( )
     }
     
     MinEdge[0] = 0;
+    
+  ### //print the visited nodes
+  
+    for (k = 1; k < nNodes; k++)
+    
+    {
+    
+      x = y = 0;
+      
+      for (i = 0; i< nNodes; i++ )
+      
+        for (j = 0; j< nNodes; j++ )
+        
+         {
+         
+      if ( Visited[i] && !Visited[j] && Cost[i] [j] < Cost[x][y] )
+      
+           {
+           
+             x = i;
+             
+             y = j;
+    
+    
